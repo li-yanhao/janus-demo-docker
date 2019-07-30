@@ -10,7 +10,7 @@
 
         $ sudo docker-compose build
 
-        $ sudo docker-compose run
+        $ sudo docker-compose up
 
 3. Open your Chrome browser and go to `localhost:9999`
 
