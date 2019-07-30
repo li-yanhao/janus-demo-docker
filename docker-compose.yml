@@ -16,7 +16,7 @@ services:
       - "8080:80"
   
   frontend-backend:
-    build: .
+    build: ./frontend-backend-docker
     ports:
       - "3000:3000" 
       - "9999:9999"
