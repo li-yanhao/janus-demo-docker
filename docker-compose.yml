@@ -1,0 +1,23 @@
+version: '3'
+services:
+  janus:
+    build: ./janus-webrtc-gateway-docker
+    ports: 
+      - "80:80"
+      - "8088:8088"
+      - "7088:7088"
+      - "8188:8188"
+    network_mode: "host"
+    
+  nginx-rtmp:
+    build: ./docker-nginx-rtmp
+    ports:
+      - "1935:1935"
+      - "8080:80"
+  
+  frontend-backend:
+    build: .
+    ports:
+      - "3000:3000" 
+      - "9999:9999"
+    network_mode: "host"
