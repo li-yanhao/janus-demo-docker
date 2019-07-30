@@ -1,0 +1,6 @@
+[submodule "frontend-backend-docker/janus-webrtc-frontend"]
+	path = frontend-backend-docker/janus-webrtc-frontend
+	url = git@git.gpac-licensing.com:yanhao/janus-webrtc-frontend.git
+[submodule "frontend-backend-docker/janus-webrtc-backend"]
+	path = frontend-backend-docker/janus-webrtc-backend
+	url = git@git.gpac-licensing.com:yanhao/janus-webrtc-backend.git
