@@ -10,6 +10,8 @@ cd ..
 git clone git@git.gpac-licensing.com:yanhao/janus-webrtc-frontend.git
 cd .. 
 git clone git@git.gpac-licensing.com:yanhao/janus-webrtc-gateway-docker.git
+cd janus-webrtc-gateway-docker/
+git checkout dev
 
 echo "All projects have been downloaded."
 echo "To build the demo: 
