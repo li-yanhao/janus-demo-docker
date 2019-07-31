@@ -18,6 +18,9 @@
 
 5. View the log of terminal to see if FFmpeg is working. `Ctrl + C` to stop the demo.
 
+
+## Diagram
+
 ![alt text](https://git.gpac-licensing.com/yanhao/janus-demo-docker/src/branch/master/diagram.jpg)
 
 
