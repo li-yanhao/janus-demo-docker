@@ -17,6 +17,7 @@ cd janus-webrtc-gateway-docker/
 git checkout dev
 
 echo "All projects have been downloaded."
+echo 
 echo "To build the docker images: 
         sudo docker-compose build
 To run the docker images:
