@@ -21,6 +21,6 @@
 
 ## Diagram
 
-![alt text](https://git.gpac-licensing.com/yanhao/janus-demo-docker/src/branch/master/diagram.jpg)
+![alt text](https://git.gpac-licensing.com/yanhao/janus-demo-docker/src/branch/master/diagram.png)
 
 
