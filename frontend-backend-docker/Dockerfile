@@ -95,7 +95,8 @@ RUN apk add --update \
   rtmpdump \
   x264-dev \
   x265-dev \
-  bash
+  bash \
+  curl
 
 COPY --from=build /opt/ffmpeg /opt/ffmpeg
 COPY --from=build /usr/lib/libfdk-aac.so.2 /usr/lib/libfdk-aac.so.2
@@ -108,8 +109,6 @@ RUN apk add --update nodejs nodejs-npm
 
 ##########################
 # Build my backend and frontend app
-
-# FROM node:10
 
 # Create app directory
 RUN mkdir -p /usr/src/app && cd /usr/src/app 
