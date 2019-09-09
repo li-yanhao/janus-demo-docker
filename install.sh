@@ -3,7 +3,7 @@
 # install.sh - A script to clone all the essential projects to reproduce the demo
 
 cd frontend-backend-docker/
-git clone git@git.gpac-licensing.com:yanhao/janus-webrtc-backend.git
+git clone https://github.com/MinesNicaicai/janus-webrtc-backend.git
 git pull
 
 cd janus-webrtc-backend/ 
@@ -11,11 +11,11 @@ git checkout dev
 git pull
 
 cd ..
-git clone git@git.gpac-licensing.com:yanhao/janus-webrtc-frontend.git
+git clone https://github.com/MinesNicaicai/janus-webrtc-frontend.git
 git pull
 
 cd .. 
-git clone git@git.gpac-licensing.com:yanhao/janus-webrtc-gateway-docker.git
+git clone https://github.com/MinesNicaicai/janus-webrtc-gateway-docker.git
 git pull
 
 cd janus-webrtc-gateway-docker/
