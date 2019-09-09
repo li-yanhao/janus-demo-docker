@@ -21,6 +21,6 @@
 
 ## Diagram
 
-![alt text](https://git.gpac-licensing.com/yanhao/janus-demo-docker/src/branch/master/diagram.png)
+![alt text](https://github.com/MinesNicaicai/janus-webrtc-gateway-docker/blob/master/diagram.png)
 
 
