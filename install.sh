@@ -4,10 +4,8 @@
 
 cd frontend-backend-docker/
 git clone https://github.com/MinesNicaicai/janus-webrtc-backend.git
-git pull
 
 cd janus-webrtc-backend/ 
-git checkout dev 
 git pull
 
 cd ..
