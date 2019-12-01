@@ -1,4 +1,4 @@
-# Janues Demo Docker 
+# Janus Demo Docker 
 
 ## Usage
 
@@ -21,6 +21,6 @@
 
 ## Diagram
 
-![alt text](https://github.com/MinesNicaicai/janus-webrtc-gateway-docker/blob/master/diagram.png)
+![alt text](https://github.com/MinesNicaicai/janus-demo-docker/blob/master/diagram.png)
 
 
